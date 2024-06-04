@@ -24,7 +24,7 @@ const Index = () => {
         </Button>
       </VStack>
 
-      <HStack spacing={8} mt={16} justifyContent="center">
+      <HStack spacing={8} mt={16} justifyContent="center" alignItems="flex-start">
         <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
           <Image src="https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGRldmVsb3BtZW50fGVufDB8fHx8MTcxNzU0MjI3Nnww&ixlib=rb-4.0.3&q=80&w=1080" alt="Software Development" />
           <Box p={6}>
