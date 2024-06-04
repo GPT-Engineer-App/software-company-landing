@@ -1,4 +1,4 @@
-import { Container, Box, VStack, HStack, Text, Heading, Button, IconButton, Image, useColorMode, useColorModeValue } from "@chakra-ui/react";
+import { Container, Box, VStack, HStack, Text, Heading, Button, IconButton, Image, useColorMode, useColorModeValue, FormControl, FormLabel, Input } from "@chakra-ui/react";
 import backgroundImage from "../assets/abstract-background.jpg";
 import { FaRocket, FaSun, FaMoon } from "react-icons/fa";
 
