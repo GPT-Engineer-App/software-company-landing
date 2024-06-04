@@ -1,4 +1,5 @@
 import { Container, Box, VStack, HStack, Text, Heading, Button, IconButton, Image, useColorMode, useColorModeValue } from "@chakra-ui/react";
+import backgroundImage from "../assets/abstract-background.jpg";
 import { FaRocket, FaSun, FaMoon } from "react-icons/fa";
 
 const Index = () => {
@@ -6,7 +7,7 @@ const Index = () => {
   const colorModeIcon = useColorModeValue(<FaMoon />, <FaSun />);
 
   return (
-    <Container maxW="container.xl" p={4}>
+    <Container maxW="container.xl" p={4} bgImage={`url(${backgroundImage})`} bgSize="cover" bgPosition="center">
       <Box as="header" w="100%" py={4} display="flex" justifyContent="space-between" alignItems="center">
         <Heading as="h1" size="lg">
           APIControl
