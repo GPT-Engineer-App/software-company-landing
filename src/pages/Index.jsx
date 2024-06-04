@@ -9,7 +9,7 @@ const Index = () => {
     <Container maxW="container.xl" p={4}>
       <Box as="header" w="100%" py={4} display="flex" justifyContent="space-between" alignItems="center">
         <Heading as="h1" size="lg">
-          TechCorp
+          APIControl
         </Heading>
         <IconButton aria-label="Toggle color mode" icon={colorModeIcon} onClick={toggleColorMode} />
       </Box>
