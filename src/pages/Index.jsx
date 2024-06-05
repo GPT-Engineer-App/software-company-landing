@@ -20,7 +20,7 @@ const Index = () => {
           Innovative Software Solutions
         </Heading>
         <Text fontSize="xl">Empowering businesses with cutting-edge technology and unparalleled support.</Text>
-        <Button colorScheme="red" size="lg" rightIcon={<FaRocket />}>
+        <Button colorScheme="blue" size="lg" rightIcon={<FaRocket />}>
           Get Started
         </Button>
       </VStack>
